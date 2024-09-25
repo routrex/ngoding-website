@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+}
+
+.container {
+    position: relative;
+    width: 980px;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.container .header {
+    background-color: #fff;
+    width: 980px;
+    height: 100px;
+}
+
+.header .logo img {
+    padding: 5px;
+    display: block;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 10px 0  rgb(93, 40, 2);
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav ul li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header nav ul li a {
+    padding: 3px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(31, 13, 0);
+}
+
+.header nav ul li a:hover {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.header nav ul li .active {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.gambar {
+    background-image: url(img/istockphoto.jpg);
+    background-size: cover;
+    height: 365px;
+    background-position: 0 -210px;
+}
+
+/* content isi */
+
+.content {
+    display: flex;
+}
+
+.main {
+    flex: 1.5;
+    width: 500px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+.main .pemilik {
+    padding-top: 3px;
+    font-size: .9rem;
+}
+
+.main .pemilik a  {
+    text-decoration: none;
+    color: rgb(34, 34, 234);
+}
+.main p {
+    line-height: 25px;
+}
+
+.saidbar {
+    flex: 1;
+}
+
+ .saidbar img {
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    margin-left: 90px;
+}
+
+.saidbar p {
+    font-size: .9rem;
+    flex: 3;
+    line-height: 20px;
+    padding-right: 20px;
+    padding-left: 30px;
+    margin-top: -5px;
+    margin-left: 30px;
+    background-color:  #e6e6e6;
+    box-shadow: 0 7px 10px 0  black;
+}
+
+/* footer */
+
+.footer {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 140px;
+    width: 980px;
+    background-color: #282828; 
+    color: #fff;
+}
+
+.footer .isi1 {
+    margin-left: 20px;
+}
+
+.footer .list {
+    position: absolute;
+    left: 440px;
+    bottom: 10px;
+    list-style: none;
+    line-height: 25px;
+} 
+
+.sosmed {
+    display: flex;
+    filter: brightness(1.5%);
+    -webkit-filter: brightness(1.5%);
+}
+.sosmed .facebook img {
+    width: 55px;
+    height: 55px;
+}
+
+.sosmed .instagram img {
+    width: 55px;
+    height: 55px;
+}
+
+.sosmed .twiteer img {
+    width: 55px;
+    height: 55px;
+}
+
+
+
+
+
